@@ -10,7 +10,7 @@ import (
 )
 
 func EnvelopeToTrasaction(env *common.Envelope) (*ChainTransaction, error) {
-	ta := &ChainTransaction{}
+	 ta := &ChainTransaction{}
 	//	//====Transaction====== []
 	// Height                  int64 `json:",string"`
 	// TxID, Chaincode, Method string
